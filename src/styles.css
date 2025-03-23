@@ -1,33 +1,33 @@
 /* 侧边栏样式 */
 .sidebar {
-    width: 200px;
-    padding: 20px;
-    background: #f5f7fa;
-    border-right: 1px solid #e0e0e0;
-  }
-  
-  .sidebar-button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
-    background: #3498db;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .sidebar-button:hover {
-    background: #2980b9;
-  }
-  
-  /* 高亮个人按钮 */
-  button[onclick*="maowenhui"] {
-    background: #e74c3c;
-  }
-  
-  button[onclick*="maowenhui"]:hover {
-    background: #c0392b;
-  }
+  width: 200px;
+  padding: 20px;
+  background: #f5f7fa;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar-button:hover {
+  background: #2980b9;
+}
+
+/* 高亮个人按钮 */
+button[onclick*="maowenhui"] {
+  background: #e74c3c;
+}
+
+button[onclick*="maowenhui"]:hover {
+  background: #c0392b;
+}
