@@ -1,8 +1,8 @@
 // src/App.js
 import React, { useState } from 'react';
 import Sidebar from './sidebar.js';
-import BlockchainPage from './BlockchainPage.js';
-import Chengzipi from './Chengzipi.js';
+import BlockchainPage from'./Hexinyi/BlockchainPage.tsx'
+import Chengzipi from './Chengzipi.js'; 
 import TiAom from './TiAom.js';
 
 const App = () => {
