@@ -1,9 +1,9 @@
 // src/App.js
 import React, { useState } from 'react';
 import Sidebar from './sidebar.js';
-import BlockchainPage from'./Hexinyi/BlockchainPage.tsx'
+import BlockchainPage from'../Hexinyi/BlockchainPage.tsx'
 import Chengzipi from './Chengzipi.js'; 
-import TiAom from './TiAom.js';
+import TiAom from '../TiAom-z/TiAom.tsx';
 
 const App = () => {
     const [activePage, setActivePage] = useState('blockchain');
