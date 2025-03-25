@@ -40,6 +40,13 @@ const Sidebar = ({ onSidebarClick }) => {
       >周小雯
         
       </button> 
+      {/* 新增个人按钮 */}
+     <button 
+        className="sidebar-button"
+        onClick={() => onSidebarClick('Chentingting')}
+      >陈婷婷
+        
+      </button> 
     </div>
   );
 };

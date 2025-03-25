@@ -6,6 +6,7 @@ import Chengzipi from './Maowenhui/Chengzipi.tsx';
 import TiAom from './TiAom-z/TiAom.tsx';
 import Qlx from './Qinlinxiang/Qlx.tsx'
 import Xiaowen from'./Zhouxiaowen/Xiaowen.tsx'
+import Yyqx from './Chentingting/Yyqx.tsx';
 
 const App = () => {
     const [activePage, setActivePage] = useState('blockchain');
@@ -25,6 +26,7 @@ const App = () => {
                 {activePage === 'TiAom' && <TiAom />}
                 {activePage === 'Qinlinxiang' && <Qlx />}
                 {activePage === 'Zhouxiaowen' && <Xiaowen />}
+                {activePage === 'Chentingting' && <Yyqx />}
             </div>
         </div>
     );
