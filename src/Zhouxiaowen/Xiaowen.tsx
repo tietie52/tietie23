@@ -38,8 +38,8 @@ const App = () => {
 
   return (
     <div>
-      <RoleList title="在区块链领域的作用" roles={blockchainRoles} />
-      <RoleList title="在软件工程领域的作用" roles={softwareEngineeringRoles} />
+      <RoleList title="在区块链领域的作用." roles={blockchainRoles} />
+      <RoleList title="在软件工程领域的作用." roles={softwareEngineeringRoles} />
     </div>
   );
 };
