@@ -26,6 +26,13 @@ const Sidebar = ({ onSidebarClick }) => {
       >钟馨娜
         
       </button> 
+      {/* 新增个人按钮 */}
+     <button 
+        className="sidebar-button"
+        onClick={() => onSidebarClick('Qinlinxiang')}
+      >覃林祥
+        
+      </button> 
     </div>
   );
 };
